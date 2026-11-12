@@ -28,4 +28,4 @@ jobs:
         run: |
           cd repo.git
           git push --mirror \
-            "https://oauth2:${GITLAB_TOKEN}@gitlab.com/Ghost2476/asone4health_v2-main#"
+            "https://oauth2:${GITLAB_TOKEN}@gitlab.com/Ghost2476/asone4health_v2-main#.git"
